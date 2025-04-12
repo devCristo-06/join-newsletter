@@ -1,0 +1,40 @@
+<!-- AUTHOR: Cristofaro Cecoro -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cristofaro Cecoro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join our newsletter</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <figure>
+            <img src="img/logo.svg" alt="Logo">
+        </figure>
+
+        <h1>Join our newsletter</h1>
+
+        <p id="prghMain">
+            Keep up with our latest collections, exclusive deals, and special offers!
+            We introduce a new collection every week, so stay tuned to snag the hottest
+            items just for you.
+        </p>
+    </main>
+
+    <section>
+        <form action="/action_page.php" method="post" enctype="multipart/form-data">
+            <input type="email" name="inptEmail" id="boxEmail" placeholder="Enter your email address" required
+                minlength="5" maxlength="40" pattern="/^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/gm">
+            <br>
+            <button type="submit">Subscribe now</button>
+        </form>
+        <p id="helperText">Your email is 100% confidential and won’t send you any spam.</p>
+    </section>
+</body>
+
+</html>
