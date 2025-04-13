@@ -29,7 +29,7 @@
     <section>
         <form action="/action_page.php" method="post" enctype="multipart/form-data">
             <input type="email" name="inptEmail" id="boxEmail" placeholder="Enter your email address" required
-                minlength="5" maxlength="40" pattern="/^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/gm">
+                minlength="5" maxlength="40" pattern="^[^\.][\w\-_.]*[^\.]@\w+\.\w+(\.\w+)?$">
             <br>
             <button type="submit">Subscribe now</button>
         </form>
